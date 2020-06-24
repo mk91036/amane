@@ -1,0 +1,442 @@
+{
+    "dm":{
+        "name":"dm",
+        "group":"fun",
+        "desc":"Use this command to dm a user something",
+        "usage":"dm [id user] [text]",
+        "aliases": "",
+        "example":"dm 647922349034831895 Hallo"
+    },
+
+    "calculator":{
+        "name":"calculator",
+        "group":"fun",
+        "desc":"Calculate something",
+        "usage":"calculator [number]",
+        "aliases": "{prefix}calc",
+        "example":"calc 5+5"
+    },
+
+    "commandcount":{
+        "name":"commandcount",
+        "group":"miscellaneous",
+        "desc":"Get the total command count for the bot",
+        "usage":"commandcount",
+        "aliases": "{prefix}ccount",
+        "example":"commandcount"
+    },
+
+    "reminder":{
+        "name":"reminder",
+        "group":"miscellaneous",
+        "desc":"Set something for the bot to remind you about",
+        "usage":"reminder [time] [text]",
+        "aliases": "{prefix}rmd",
+        "example":"reminder 2m to eat"
+    },
+
+    "dmreminder":{
+        "name":"dmreminder",
+        "group":"miscellaneous",
+        "desc":"Set something for the bot to remind you about via DM",
+        "usage":"dmreminder [time] [text]",
+        "aliases": "{prefix}dmrmd",
+        "example":"dmreminder 2m to eat"
+    },
+
+    "nitro":{
+        "name":"nitro",
+        "group":"miscellaneous",
+        "desc":"Find all of the nitro users in the server",
+        "usage":"nitro",
+        "aliases": "",
+        "example":"nitro"
+    },
+
+    "npm":{
+        "name":"npm",
+        "group":"miscellaneous",
+        "desc":"Search something through NPM",
+        "usage":"npm [module]",
+        "aliases": "",
+        "example":"npm discord.js"
+    },
+
+    "addrole":{
+        "name":"addrole",
+        "group":"moderation",
+        "desc":"Add a role to an user on your server, in order to assign a role the bot role must be above the others",
+        "usage":"addrole [user] [role]",
+        "aliases": "",
+        "example":"addrole @myUsername#0632 @Moderator"
+    },
+
+    "lockdown":{
+        "name":"lockdown",
+        "group":"moderation",
+        "desc":"To lock the channel on your server or to release the lock type the command {prefix}lockdown unlock",
+        "usage":"lockdown [hour/minute/seconds]",
+        "aliases": "{prefix}ld",
+        "example":"lockdown 1h / >lockdown unlock"
+    },
+
+    "ban":{
+        "name":"ban",
+        "group":"moderation",
+        "desc":"Ban an user from the server",
+        "usage":"ban [user] [reason]",
+        "aliases": "",
+        "example":"ban @myUsername#0632 He did not respect the rules"
+    },
+
+    "report":{
+        "name":"report",
+        "group":"moderation",
+        "desc":"report an user from the server",
+        "usage":"report [user] [reason]",
+        "aliases": "",
+        "example":"report @myUsername#0632 He did not respect the rules"
+    },
+
+    "deletemsg":{
+        "name":"deletemsg",
+        "group":"moderation",
+        "desc":"Delete an amount of messages, the number must be between 2 and 100",
+        "usage":"deletemsg [number]",
+        "aliases": "{prefix}purge / {prefix}clear",
+        "example":"deletemsg 5"
+    },
+
+    "kick":{
+        "name":"kick",
+        "group":"moderation",
+        "desc":"Kick an user from the server",
+        "usage":"kick [user] [reason]",
+        "aliases": "",
+        "example":"kick @myUsername#0632 He did not respect the rules"
+    },
+
+    "welcome":{
+        "name":"welcome",
+        "group":"moderation",
+        "desc":"Show all available welcome commands",
+        "usage":"welcome",
+        "aliases": "",
+        "example":"welcome"
+    },
+
+    "welcomemessage":{
+        "name":"welcomemessage",
+        "group":"moderation",
+        "desc":"Setting welcome message in your server",
+        "usage":"welcomemessage [text]",
+        "aliases": "",
+        "example":"welcomemessage Welcome %USER% to %GUILD_NAME%"
+    },
+
+    "welcomechannel":{
+        "name":"welcomemessage",
+        "group":"moderation",
+        "desc":"Setting welcome channel in your server",
+        "usage":"welcomechannel [#channel]",
+        "aliases": "",
+        "example":"welcomechannel #general"
+    },
+
+    "welcomeleave":{
+        "name":"welcomeleave",
+        "group":"moderation",
+        "desc":"Setting leave message in your server",
+        "usage":"welcomeleave [text]",
+        "aliases": "",
+        "example":"welcomeleave Jaa mata ne %USER_TAG%"
+    },
+
+    "welcomedm":{
+        "name":"welcomedm",
+        "group":"moderation",
+        "desc":"Setting welcome DM message in your server",
+        "usage":"welcomedm [text]",
+        "aliases": "",
+        "example":"welcomedm Welcome %USER% to %GUILD_NAME%"
+    },
+    
+    "welcomerole":{
+        "name":"welcomerole",
+        "group":"moderation",
+        "desc":"Setting auto-role in your server",
+        "usage":"welcomerole [RoleName]",
+        "aliases": "",
+        "example":"welcomerole Moderator"
+    },
+
+    "welcomeremove":{
+        "name":"welcomeremove",
+        "group":"moderation",
+        "desc":"Remove all welcome setting in your server",
+        "usage":"welcomeremove",
+        "aliases": "",
+        "example":"welcomeremove"
+    },
+
+    "config":{
+        "name":"config",
+        "group":"moderation",
+        "desc":"Show all configuration welcome commands in your server",
+        "usage":"config",
+        "aliases": "",
+        "example":"config"
+    },
+
+    "removerole":{
+        "name":"removerole",
+        "group":"moderation",
+        "desc":"Remove a role of an user",
+        "usage":"removerole [user] [role]",
+        "aliases": "{prefix}delrole",
+        "example":"removerole @myUsername#0632 @Moderator"
+    },
+
+    "setbotname":{
+        "name":"setbotname",
+        "group":"moderation",
+        "desc":"Set a name for the bot",
+        "usage":"setbotname [name]",
+        "aliases": "",
+        "example":"setbotname CoolBot"
+    },
+
+    "setbotstatus":{
+        "name":"setbotstatus",
+        "group":"moderation",
+        "desc":"Set bot status",
+        "usage":"setbotstatus [status] you can choose the following strings: online, idle, invisible, dnd (do not disturb)",
+        "aliases": "",
+        "example":"setbotstatus online"
+    },
+
+    "prefix":{
+        "name":"prefix",
+        "group":"owner",
+        "desc":"To change prefix in your server",
+        "usage":"prefix [new prefix]",
+        "aliases": "",
+        "example":"prefix !"
+    },
+
+    "eval":{
+        "name":"eval",
+        "group":"owner",
+        "desc":"Don't use this unless you know what you're doing",
+        "usage":"eval [code]",
+        "aliases": "",
+        "example":"eval message.author.username"
+    },
+
+    "guildlist":{
+        "name":"guildlist",
+        "group":"owner",
+        "desc":"Allows you to see what guilds the bot is in",
+        "usage":"guildlist",
+        "aliases": "",
+        "example":"guildlist"
+    },
+
+    "reboot":{
+        "name":"reboot",
+        "group":"owner",
+        "desc":"Hard reboots the bot",
+        "usage":"reboot",
+        "aliases": "",
+        "example":"reboot"
+    },
+
+    "setstatus":{
+        "name":"setstatus",
+        "group":"owner",
+        "desc":"Allows you to set what game the bots playing",
+        "usage":"setstatus [text]",
+        "aliases": "",
+        "example":"setstatus Visual Studio Code"
+    },
+
+    "resetstatus":{
+        "name":"resetstatus",
+        "group":"owner",
+        "desc":"Resets the bots status back to default",
+        "usage":"resetstatus",
+        "aliases": "",
+        "example":"resetstatus"
+    },
+
+    "text":{
+        "name":"text",
+        "group":"owner",
+        "desc":"Send text using bot",
+        "usage":"text [text]",
+        "aliases": "",
+        "example":"text Hello World!"
+    },
+    
+    "error":{
+        "name":"error",
+        "group":"pso2",
+        "desc":"Search any error from game Phantasy Star Online 2",
+        "usage":"error [errorCode]",
+        "aliases": "",
+        "example":"error 630"
+    },
+
+    "builds":{
+        "name":"builds",
+        "group":"pso2",
+        "desc":"Builds skill tree Phantasy Star Online 2",
+        "usage":"builds",
+        "aliases": "{prefix}build",
+        "example":"builds"
+    },
+
+    "eqall":{
+        "name":"eqall",
+        "group":"pso2",
+        "desc":"UpComing Emergency Quest",
+        "usage":"eqall",
+        "aliases": "{prefix}eqall",
+        "example":"eqall"
+    },
+
+    "candy":{
+        "name":"candy",
+        "group":"pso2",
+        "desc":"Build pet candy Phantasy Star Online 2",
+        "usage":"candy",
+        "aliases": "{prefix}candy",
+        "example":"candy"
+    },
+    
+    "status":{
+        "name":"status",
+        "group":"pso2",
+        "desc":"Show status server Phantasy Star Online 2",
+        "usage":"status",
+        "aliases": "",
+        "example":"status"
+    },
+
+    "item":{
+        "name":"item",
+        "group":"pso2",
+        "desc":"Search item Phantasy Star Online 2",
+        "usage":"item [nameItem]",
+        "aliases": "",
+        "example":"item armeure hair"
+    },
+
+    "price":{
+        "name":"price",
+        "group":"pso2",
+        "desc":"Search item price Phantasy Star Online 2",
+        "usage":"price [nameItem]",
+        "aliases": "",
+        "example":"price armeure hair"
+    },
+
+    "help":{
+        "name":"help",
+        "group":"system",
+        "desc":"Display the list of commands if you just type >help or if you type >help commandName display the current command info",
+        "usage":"help or {prefix}help [commandName]",
+        "aliases":"{prefix}h or {prefix}cmd",
+        "example":"help or >help addrole"
+    },
+
+    "information":{
+        "name":"information",
+        "group":"system",
+        "desc":"Get bot information",
+        "usage":"information",
+        "aliases":"{prefix}info",
+        "example":"information"
+    },
+
+    "invite":{
+        "name":"invite",
+        "group":"system",
+        "desc":"Get bot invite link to your server",
+        "usage":"invite",
+        "aliases":"",
+        "example":"invite"
+    },
+
+    "serverinfo":{
+        "name":"serverinfo",
+        "group":"system",
+        "desc":"Get server info",
+        "usage":"serverinfo",
+        "aliases": "",
+        "example":"serverinfo"
+    },
+
+    "ownerserver":{
+        "name":"ownerserver",
+        "group":"system",
+        "desc":"Get an invite for the server, but you must type the channelID to get the command work",
+        "usage":"ownerserver",
+        "aliases": "{prefix}os",
+        "example":"ownerserver"
+    },
+
+    "uptime":{
+        "name":"uptime",
+        "group":"system",
+        "desc":"Get bot uptime",
+        "usage":"uptime",
+        "aliases": "",
+        "example":"uptime"
+    },
+
+    "userinfo":{
+        "name":"userinfo",
+        "group":"system",
+        "desc":"Get your user info",
+        "usage":"userinfo [user]",
+        "aliases": "",
+        "example":"userinfo"
+    },
+
+    "membercount":{
+        "name":"membercount",
+        "group":"system",
+        "desc":"Get information member in your server",
+        "usage":"membercount",
+        "aliases": "",
+        "example":"membercount"
+    },
+
+    "anime":{
+        "name":"anime",
+        "group":"otaku",
+        "desc":"To find details about anime",
+        "usage":"anime [title]",
+        "aliases": "",
+        "example":"anime overlord"
+    },
+
+    "manga":{
+        "name":"manga",
+        "group":"otaku",
+        "desc":"To find details about manga",
+        "usage":"manga [title]",
+        "aliases": "",
+        "example":"manga solo leveling"
+    },
+
+    "mal":{
+        "name":"mal",
+        "group":"otaku",
+        "desc":"To find details about anime or manga from MyAnimeList",
+        "usage":"mal [title]",
+        "aliases": "",
+        "example":"mal overlord"
+    }
+}

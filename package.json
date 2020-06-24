@@ -1,0 +1,42 @@
+{
+  "name": "another",
+  "version": "1.0.0",
+  "description": "Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "JS",
+    "Discord.js",
+    "NodeJs"
+  ],
+  "author": "MK 91036",
+  "license": "ISC",
+  "dependencies": {
+    "animequote": "^1.1.1",
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^11.4.2",
+    "express": "^4.17.1",
+    "kitsu.js": "^2.0.0",
+    "mal-scraper": "^2.6.8",
+    "mathjs": "^6.6.1",
+    "moment": "^2.24.0",
+    "ms": "^2.1.2",
+    "node-superfetch": "^0.1.10",
+    "npm-module-search": "^3.0.0",
+    "quick.db": "^7.1.1",
+    "random-puppy": "^1.1.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "rss-parser": "^3.7.5",
+    "sherlockjs": "^1.4.0",
+    "simple-youtube-api": "^5.0.2",
+    "snekfetch": "^4.0.4",
+    "ytdl-core": "^0.25.2",
+    "ytdl-core-discord": "^1.1.0"
+  }
+}
