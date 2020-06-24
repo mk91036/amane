@@ -1,1 +1,1 @@
-# amane
+# Amane [BOT] Discord
