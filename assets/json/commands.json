@@ -340,6 +340,15 @@
         "aliases": "",
         "example":"price armeure hair"
     },
+	
+	"daily":{
+        "name":"daily",
+        "group":"pso2",
+        "desc":"Show daily order today",
+        "usage":"daily",
+        "aliases": "",
+        "example":"daily"
+    },
 
     "help":{
         "name":"help",
