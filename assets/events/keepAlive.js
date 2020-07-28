@@ -14,8 +14,8 @@ app.get('/daily', async (req, res) => {
 
   for (let eq of JSON.parse(await fs.readFile('./assets/json/dailyOrder.json', 'utf8'))) {
       const name = eq[0];
-      //const startDate = moment(eq[1], 'YYYYMMDD').subtract(1, 'day');
-      const startDate = moment(eq[1], 'YYYYMMDD');
+      const startDate = moment(eq[1], 'YYYYMMDD').subtract(1, 'day');
+      //const startDate = moment(eq[1], 'YYYYMMDD');
       const intervals = eq[2];
 
       let i = 0;
