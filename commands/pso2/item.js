@@ -5,7 +5,7 @@ const utils = require('../../assets/utils/majUtils.js')
 
 module.exports.run = (bot, message, args) => {
     if (!args.join(" ")) return message.channel.send(`Usage: ${config.prefix}item [name]`)
-    let item = message.content.substr(6);
+    let item = args.join(" ")
 
     fetch(`http://db.kakia.org/item/search?name=${encodeURIComponent(item)}`).then(res => res.json()).then(data => {
 
